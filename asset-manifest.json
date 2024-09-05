@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Balonowa/static/css/main.331d5c40.css",
-    "main.js": "/Balonowa/static/js/main.255e78d5.js",
-    "static/js/453.3ae11647.chunk.js": "/Balonowa/static/js/453.3ae11647.chunk.js",
-    "static/media/brush1.png": "/Balonowa/static/media/brush1.150d57b7ca83e9cbfbc4.png",
-    "static/media/brush2.png": "/Balonowa/static/media/brush2.bdfe31ab7d298bcc32e2.png",
-    "index.html": "/Balonowa/index.html",
-    "main.331d5c40.css.map": "/Balonowa/static/css/main.331d5c40.css.map",
-    "main.255e78d5.js.map": "/Balonowa/static/js/main.255e78d5.js.map",
-    "453.3ae11647.chunk.js.map": "/Balonowa/static/js/453.3ae11647.chunk.js.map"
+    "main.css": "/static/css/main.928264e2.css",
+    "main.js": "/static/js/main.058212f9.js",
+    "static/js/453.3ae11647.chunk.js": "/static/js/453.3ae11647.chunk.js",
+    "static/media/brush1.png": "/static/media/brush1.150d57b7ca83e9cbfbc4.png",
+    "static/media/brush2.png": "/static/media/brush2.bdfe31ab7d298bcc32e2.png",
+    "index.html": "/index.html",
+    "main.928264e2.css.map": "/static/css/main.928264e2.css.map",
+    "main.058212f9.js.map": "/static/js/main.058212f9.js.map",
+    "453.3ae11647.chunk.js.map": "/static/js/453.3ae11647.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.331d5c40.css",
-    "static/js/main.255e78d5.js"
+    "static/css/main.928264e2.css",
+    "static/js/main.058212f9.js"
   ]
 }
