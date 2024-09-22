@@ -1,0 +1,50 @@
+ul {
+  list-style-type: none; /* Usunięcie kropek z listy */
+  padding: 0;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.li1 {
+  background-color: #c5fc79; /* Tło dla li1 */
+  margin: 10px 0;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.li2 {
+  background-color: #80d958; /* Tło dla li2 */
+  margin: 10px 0;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efekt hover dla obu elementów */
+.li1:hover,
+.li2:hover {
+  transform: translateY(-5px); /* Lekkie podniesienie elementu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Dodanie cienia */
+}
+
+div {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+li div {
+  display: none;
+}
+
+li div.visible {
+  display: block; /* Wyświetlanie tekstu po rozwinięciu */
+}
+
+.expandableListDescription {
+  list-style-type: disc;
+}
