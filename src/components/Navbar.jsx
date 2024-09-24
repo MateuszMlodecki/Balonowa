@@ -18,17 +18,17 @@ const Navbar = () => {
       <ul className="hidden md:flex col-start-3 col-end-5 justify-center space-x-8">
         <li>
           <Link to="/Balonowa" className="button1">
-            Home
+            <b>HOME</b>
           </Link>
         </li>
         <li>
           <Link to="/Oferta" className="button2">
-            Oferta
+            <b>OFERTA</b>
           </Link>
         </li>
         <li>
           <Link to="/Kontakt" className="button1">
-            Kontakt
+            <b>KONTAKT</b>
           </Link>
         </li>
       </ul>

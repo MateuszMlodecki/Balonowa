@@ -9,10 +9,10 @@ const ExpandableList = () => {
   };
 
   return (
-    <div>
+    <div className="text-xl">
       <ul>
         <li onClick={() => handleClick(0)} className="li1">
-          Animacje
+          <b>ANIMACJE</b>
           <div style={{ display: expandedIndex === 0 ? "block" : "none" }}>
             <p>
               Witaj w magicznym świecie zabawy i kreatywności! Jako doświadczeni
@@ -92,7 +92,7 @@ const ExpandableList = () => {
           </div>
         </li>
         <li onClick={() => handleClick(1)} className="li2">
-          Maskotki
+          <b>MASKOTKI</b>
           <div style={{ display: expandedIndex === 1 ? "block" : "none" }}>
             <p>
               Znajdziecie u nas również maskotki, które sprawdzą się bardzo
@@ -120,7 +120,7 @@ const ExpandableList = () => {
           </div>
         </li>
         <li onClick={() => handleClick(2)} className="li1">
-          Balony z helem
+          <b>BALONY Z HELEM</b>
           <div style={{ display: expandedIndex === 2 ? "block" : "none" }}>
             <p>
               Dekoracje z balonów z helem to doskonały sposób na urozmaicenie
