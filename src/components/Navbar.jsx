@@ -13,7 +13,11 @@ const Navbar = () => {
 
   return (
     <div className="grid grid-cols-5 items-center">
-      <img src={logo} alt="logo" className="col-start-1" />
+      <img
+        src={logo}
+        alt="logo"
+        className="col-start-1 col-span-2 md:col-span-1"
+      />
 
       <ul className="hidden md:flex col-start-3 col-end-5 justify-center space-x-8">
         <li>
