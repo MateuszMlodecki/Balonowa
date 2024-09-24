@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Balonowa/static/css/main.331d5c40.css",
-    "main.js": "/Balonowa/static/js/main.bdbe7106.js",
+    "main.css": "/Balonowa/static/css/main.c0b0a569.css",
+    "main.js": "/Balonowa/static/js/main.e4c3b8ff.js",
     "static/js/453.3ae11647.chunk.js": "/Balonowa/static/js/453.3ae11647.chunk.js",
     "static/media/img_dmuchaniec.jpg": "/Balonowa/static/media/img_dmuchaniec.e66f17bb607da26ad6c2.jpg",
     "static/media/logo.png": "/Balonowa/static/media/logo.69aafacdd342084f7dc7.png",
+    "static/media/strzałka.png": "/Balonowa/static/media/strzałka.03fbd42732cf2f390d46.png",
     "static/media/brush1.png": "/Balonowa/static/media/brush1.150d57b7ca83e9cbfbc4.png",
     "static/media/brush2.png": "/Balonowa/static/media/brush2.bdfe31ab7d298bcc32e2.png",
     "static/media/menu.png": "/Balonowa/static/media/menu.bbe8814feb037d5b84ff.png",
     "index.html": "/Balonowa/index.html",
-    "main.331d5c40.css.map": "/Balonowa/static/css/main.331d5c40.css.map",
-    "main.bdbe7106.js.map": "/Balonowa/static/js/main.bdbe7106.js.map",
+    "main.c0b0a569.css.map": "/Balonowa/static/css/main.c0b0a569.css.map",
+    "main.e4c3b8ff.js.map": "/Balonowa/static/js/main.e4c3b8ff.js.map",
     "453.3ae11647.chunk.js.map": "/Balonowa/static/js/453.3ae11647.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.331d5c40.css",
-    "static/js/main.bdbe7106.js"
+    "static/css/main.c0b0a569.css",
+    "static/js/main.e4c3b8ff.js"
   ]
 }
