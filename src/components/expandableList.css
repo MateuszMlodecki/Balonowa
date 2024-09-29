@@ -3,11 +3,11 @@ ul {
 }
 
 .li1 {
-  @apply bg-[#c5fc79] transition duration-300 ease-in-out cursor-pointer rounded-md py-4 px-6 mb-4;
+  @apply bg-[#c5fc79] transition duration-[700ms] ease-in-out cursor-pointer rounded-md py-4 px-6 mb-4;
 }
 
 .li2 {
-  @apply bg-[#80d958] transition duration-300 ease-in-out cursor-pointer rounded-md py-4 px-6 mb-4;
+  @apply bg-[#80d958] transition duration-[700ms] ease-in-out cursor-pointer rounded-md py-4 px-6 mb-4;
 }
 
 .li1:hover,

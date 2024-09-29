@@ -73,7 +73,6 @@ const ExpandableList = () => {
             </p>
             <ol>
               <b>
-                <li>Malowanie twarzy</li>
                 <li>Kolorowe warkoczyki</li>
                 <li>Zamykanie w bańce oraz duże bańki</li>
                 <li>Zabawy ruchowe</li>
