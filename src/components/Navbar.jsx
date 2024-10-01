@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="grid grid-cols-5 items-center">
+    <div className="grid grid-cols-5 xl:grid-cols-6 grid-rows-1 xl-grid-rows-2 items-center">
       <img
         src={logo}
         alt="logo"
@@ -35,12 +35,17 @@ const Navbar = () => {
             <b>KONTAKT</b>
           </Link>
         </li>
+        <li>
+          <Link to="Galeria" className="button2">
+          <b>GALERIA</b>
+          </Link>
+        </li>
       </ul>
 
       <img
         src={menuPng}
         alt="Menu"
-        className="hamburger col-start-5 justify-self-end cursor-pointer md:hidden"
+        className="hamburger col-start-6 justify-self-end cursor-pointer md:hidden"
         onClick={toggleMenu}
       />
 
