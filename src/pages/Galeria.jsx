@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Grid, IconButton } from "@mui/material";
-import { ArrowLeft, ArrowRight } from "@mui/icons-material";
+import { ArrowLeft, ArrowRight } from "@mui/icons-material"; // MUI ikony
 
 const images = require.context("../Gallery", true, /\.(jpg|jpeg)$/);
 
@@ -29,78 +28,48 @@ const Galeria = () => {
   };
 
   return (
-    <Grid container spacing={2}>
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-1">
       {images.keys().map((image, index) => (
-        <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
+        <div key={index} className="relative">
           <img
             src={images(image)}
             alt="Zdjęcie"
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover",
-              cursor: "pointer",
-            }}
+            className="w-full h-full object-cover cursor-pointer"
             onClick={() => handleImageClick(image)}
           />
           {enlargedImage === image && (
             <div
-              style={{
-                position: "fixed",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%",
-                backgroundColor: "rgba(0, 0, 0, 0.5)",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                zIndex: "99999",
-                overflow: "auto",
-              }}
+              className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-[99999] overflow-auto"
               onClick={handleClose}
             >
-              <IconButton
-                style={{
-                  backgroundColor: "white",
-                  borderRadius: "50%",
-                  margin: "10px",
-                }}
+              <button
+                className="bg-white rounded-full p-2 mx-2"
                 onClick={(e) => {
                   handleScrollLeft();
                   e.stopPropagation();
                 }}
               >
                 <ArrowLeft />
-              </IconButton>
+              </button>
               <img
                 src={images(image)}
                 alt="Zdjęcie"
-                style={{
-                  maxWidth: "90%",
-                  maxHeight: "90%",
-                  objectFit: "contain",
-                  pointerEvents: "none",
-                }}
+                className="max-w-[75%] max-h-[75%] object-contain pointer-events-none md:max-w-[90%] md:max-h-[90%]"
               />
-              <IconButton
-                style={{
-                  backgroundColor: "white",
-                  borderRadius: "50%",
-                  margin: "10px",
-                }}
+              <button
+                className="bg-white rounded-full p-2 mx-2"
                 onClick={(e) => {
                   handleScrollRight();
                   e.stopPropagation();
                 }}
               >
                 <ArrowRight />
-              </IconButton>
+              </button>
             </div>
           )}
-        </Grid>
+        </div>
       ))}
-    </Grid>
+    </div>
   );
 };
 

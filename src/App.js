@@ -9,7 +9,7 @@ import { Navbar } from "./components/Navbar2.jsx";
 function App() {
   return (
     <Router>
-      <div>
+      <>
         <Navbar />
         <Routes>
           <Route path="/Balonowa" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
           <Route path="/Kontakt" element={<Kontakt />} />
           <Route path="/Galeria" element={<Galeria />} />
         </Routes>
-      </div>
+      </>
     </Router>
   );
 }
