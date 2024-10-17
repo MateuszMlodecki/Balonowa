@@ -17,28 +17,27 @@ export const Navbar = () => {
         alt="logo"
         className="col-start-1 col-span-2 md:col-span-1"
       />
-      <nav className="hidden md:ml-[25%] md:grid">
-        <div className="col-start-1">
-          <Link to="/Balonowa" className="button1">
-            <b>HOME</b>
-          </Link>
-        </div>
-        <div className="col-start-2">
-          <Link to="/Oferta" className="button2">
-            <b>OFERTA</b>
-          </Link>
-        </div>
-        <div className="col-start-3">
-          <Link to="/Kontakt" className="button1">
-            <b>KONTAKT</b>
-          </Link>
-        </div>
-        <div className="col-start-4">
-          <Link to="/Galeria" className="button2">
-            <b>GALERIA</b>
-          </Link>
-        </div>
-      </nav>
+      <div className="hidden md:grid col-start-2">
+        <Link to="/Balonowa" className="button1">
+          <b>HOME</b>
+        </Link>
+      </div>
+      <div className="hidden md:grid col-start-3">
+        <Link to="/Oferta" className="button2">
+          <b>OFERTA</b>
+        </Link>
+      </div>
+      <div className="hidden md:grid col-start-4">
+        <Link to="/Kontakt" className="button1">
+          <b>KONTAKT</b>
+        </Link>
+      </div>
+      <div className="hidden md:grid col-start-5">
+        <Link to="/Galeria" className="button2">
+          <b>GALERIA</b>
+        </Link>
+      </div>
+
       <img
         src={menuPng}
         alt="Menu"
