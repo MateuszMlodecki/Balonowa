@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Balonowa/static/css/main.038d7e1c.css",
-    "main.js": "/Balonowa/static/js/main.a7248fcf.js",
+    "main.css": "/Balonowa/static/css/main.58b809b5.css",
+    "main.js": "/Balonowa/static/js/main.15db6f78.js",
     "static/js/453.3ae11647.chunk.js": "/Balonowa/static/js/453.3ae11647.chunk.js",
     "static/media/Misie.jpg": "/Balonowa/static/media/Misie.d3f108075c1e06298213.jpg",
     "static/media/Dmuchaniec2.jpg": "/Balonowa/static/media/Dmuchaniec2.c14eecdff0ae0b029ba0.jpg",
@@ -33,16 +33,16 @@
     "static/media/Misie2.jpg": "/Balonowa/static/media/Misie2.ab5a51f55962883dd76c.jpg",
     "static/media/logo.png": "/Balonowa/static/media/logo.69aafacdd342084f7dc7.png",
     "static/media/strzałka.png": "/Balonowa/static/media/strzałka.03fbd42732cf2f390d46.png",
-    "static/media/brush1.png": "/Balonowa/static/media/brush1.150d57b7ca83e9cbfbc4.png",
-    "static/media/brush2.png": "/Balonowa/static/media/brush2.bdfe31ab7d298bcc32e2.png",
+    "static/media/brush1.png": "/Balonowa/static/media/brush1.4dd694c58f3f191e0fd9.png",
+    "static/media/brush2.png": "/Balonowa/static/media/brush2.2e1c14aa59411a211a66.png",
     "static/media/menu.png": "/Balonowa/static/media/menu.bbe8814feb037d5b84ff.png",
     "index.html": "/Balonowa/index.html",
-    "main.038d7e1c.css.map": "/Balonowa/static/css/main.038d7e1c.css.map",
-    "main.a7248fcf.js.map": "/Balonowa/static/js/main.a7248fcf.js.map",
+    "main.58b809b5.css.map": "/Balonowa/static/css/main.58b809b5.css.map",
+    "main.15db6f78.js.map": "/Balonowa/static/js/main.15db6f78.js.map",
     "453.3ae11647.chunk.js.map": "/Balonowa/static/js/453.3ae11647.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.038d7e1c.css",
-    "static/js/main.a7248fcf.js"
+    "static/css/main.58b809b5.css",
+    "static/js/main.15db6f78.js"
   ]
 }
