@@ -11,7 +11,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="grid grid-cols-5 xl:grid-cols-6 grid-rows-1 xl-grid-rows-2 items-center">
+    <div className="grid grid-cols-5 xl:grid-cols-5 grid-rows-1 xl-grid-rows-2 items-center">
       <img
         src={logo}
         alt="logo"
