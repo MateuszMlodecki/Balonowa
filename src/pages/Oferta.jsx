@@ -1,6 +1,6 @@
 import React from "react";
 
-const Badge = () => {
+const Oferta = () => {
   return (
     <div className="mx-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
       {/* offer badge */}
@@ -81,8 +81,9 @@ const Badge = () => {
           </ul>
         </div>
       </div>
+      <div className="p-1"></div>
     </div>
   );
 };
 
-export default Badge;
+export default Oferta;

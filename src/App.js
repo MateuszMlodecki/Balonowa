@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Oferta from "./pages/Oferta.jsx";
 import Kontakt from "./pages/Kontakt";
 import Galeria from "./pages/Galeria.jsx";
-import { Navbar } from "./components/Navbar2.jsx";
+import { Navbar } from "./components/Navbar.jsx";
 
 function App() {
   return (
