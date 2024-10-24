@@ -1,5 +1,6 @@
 import React from "react";
 import CzarekBear from "../Gallery/Misie2.jpg";
+import WhiteBear from "../Gallery/Misie4.jpg";
 
 const Oferta = () => {
   return (
@@ -94,19 +95,27 @@ const Oferta = () => {
         <li>Ceny obejmują do 12 dzieci</li>
         <li>Powyżej 12 dzieci dodatkowy koszt 100zł/h</li>
       </ul>
-      <div className="px-28 ">
+      <div className="grid">
         <h2 className="text-center font-bold text-3xl">Cennik Maskotek</h2>
-        <div className="bg-[#C5FC79] rounded-3xl p-6 shadow-lg drop-shadow-2xl w-64 mx-auto my-4">
+        <div className="bg-[#C5FC79] rounded-3xl p-6 text-center shadow-lg drop-shadow-2xl w-64 mx-auto my-4">
           Każdy Miś w cenie ma balony z helem, z którymi wchodzi na salę 😊 +
           koszt dojazdu.
         </div>
-        <div className="grid grid-cols-2  justify-items-center bg-[#80D958] rounded-3xl shadow-lg drop-shadow-2xl h-96 place-items-center w-2/3 mx-auto my-4">
+        <div className="grid grid-cols-2 justify-items-center bg-[#80D958] rounded-3xl shadow-lg drop-shadow-2xl h-96 place-items-center p-6 gap-6 md:w-2/3 mx-auto my-4">
           <img
             className="max-h-80 rounded-2xl"
             src={CzarekBear}
             alt="Miś Czarek"
           ></img>
           <p>Miś Czarek – 30 minut- 200 zł</p>
+        </div>
+        <div className="grid grid-cols-2  justify-items-center bg-[#80D958] rounded-3xl shadow-lg drop-shadow-2xl h-96 place-items-center p-6 gap-6 md:w-2/3 mx-auto my-4">
+          <p>Giga Biały Miś 2,5m – 30 minut- 300 zł </p>
+          <img
+            className="max-h-80 rounded-2xl"
+            src={WhiteBear}
+            alt="Miś Biały"
+          ></img>
         </div>
       </div>
     </div>
