@@ -3,6 +3,7 @@ import "./styles.css";
 import ExpandableList from "../components/ExpandableList";
 import dmuchaniec from "../images/img_dmuchaniec.jpg";
 import strzałka from "../images/strzałka.png";
+import ReviewWidget from "../components/ElfsightWidget";
 
 const Home = () => {
   return (
@@ -13,11 +14,11 @@ const Home = () => {
           „Radość w każdej chwili – z nami każdy moment jest magiczny!”
         </h2>
         <ExpandableList />
-        <div className="flex justify-center text-center text-3xl">
+        <div className="flex justify-center text-center text-3xl mb-6">
           Zapraszamy serdecznie!
         </div>
-        <div className="flex justify-center text-xl">
-          google rewiev widget placeholder.
+        <div className="flex justify-center text-xl ">
+          <ReviewWidget />
         </div>
 
         <div className="grid grid-cols-5 grid-rows-2 gap mt-6">

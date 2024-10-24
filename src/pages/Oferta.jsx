@@ -109,7 +109,7 @@ const Oferta = () => {
           ></img>
           <p>Miś Czarek – 30 minut- 200 zł</p>
         </div>
-        <div className="grid grid-cols-2  justify-items-center bg-[#80D958] rounded-3xl shadow-lg drop-shadow-2xl h-96 place-items-center p-6 gap-6 md:w-2/3 mx-auto my-4">
+        <div className="grid grid-cols-2  justify-items-center bg-[#80D958] rounded-3xl shadow-lg drop-shadow-2xl h-96 place-items-center p-6 gap-6 md:w-2/3 mx-auto my-4 mb-32 md:mb-4">
           <p>Giga Biały Miś 2,5m – 30 minut- 300 zł </p>
           <img
             className="max-h-80 rounded-2xl"
