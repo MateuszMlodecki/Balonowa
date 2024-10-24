@@ -7,7 +7,7 @@ import strzałka from "../images/strzałka.png";
 const Home = () => {
   return (
     <div>
-      <img src={dmuchaniec} alt="" className="firstImg" />
+      <img src={dmuchaniec} alt="" className="mx-auto w-4/5 rounded-3xl" />
       <div>
         <h2 className="flex justify-center text-center my-6 text-xl">
           „Radość w każdej chwili – z nami każdy moment jest magiczny!”
